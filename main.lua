@@ -47,3 +47,11 @@ SMODS.Atlas({
     px = 71,
     py = 95
 })
+
+SMODS.Atlas({
+    prefix_config = false,
+    key = 'Joker',
+    path = 'jokers.png',
+    px = 71,
+    py = 95
+})
