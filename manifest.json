@@ -9,9 +9,10 @@
 	"priority": 0,
 	"badge_colour": "288c14",
 	"badge_text_colour": "ffffff",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"dependencies": [
         "Lovely (*)",
-        "Steamodded (*)"
+        "Steamodded (*)",
+        "malverk (*)"
     ]
 }
