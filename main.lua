@@ -40,6 +40,12 @@ for _,c in ipairs(st) do
     }
 end
 
+SMODS.Atlas({
+    key = 'fuckass_decks',
+    path = 'backs.png',
+    px = 71,
+    py = 95,
+})
 AltTexture({
     key = 'fuckass_decks',
     path = 'backs.png',
@@ -95,11 +101,30 @@ AltTexture({
         name = 'Vouchers'
     },
 })
+AltTexture({
+    key = 'fuckass_enhancements',
+    path = 'backs.png',
+    set = "Enhanced",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Enhanced Cards'
+    },
+})
 TexturePack({
   key = 'fuckass_pack', -- the key of the texture
-  textures = {'tgtp_fuckass_jokers', 'tgtp_fuckass_planets','tgtp_fuckass_tarots', 'tgtp_fuckass_spectrals', 'tgtp_fuckass_decks', 'tgtp_fuckass_vouchers'},
+  textures = {
+    'tgtp_fuckass_jokers', 
+    'tgtp_fuckass_planets',
+    'tgtp_fuckass_tarots', 
+    'tgtp_fuckass_spectrals', 
+    'tgtp_fuckass_decks', 
+    'tgtp_fuckass_vouchers',
+    'tgtp_fuckass_enhancements',
+},
   loc_txt = { 
     name = 'Fuckass Pack',
     text = {'Texture made by {C:attention}TwiGinTec'}
   }
 })
+
+G.P_CENTERS['c_base'].atlas = 'tgtp_fuckass_decks'
