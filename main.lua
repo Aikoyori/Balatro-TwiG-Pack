@@ -110,6 +110,15 @@ AltTexture({
         name = 'Enhanced Cards'
     },
 })
+AltTexture({
+    key = 'fuckass_seals',
+    path = 'backs.png',
+    set = "Seal",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Seals'
+    },
+})
 TexturePack({
   key = 'fuckass_pack', -- the key of the texture
   textures = {
@@ -120,6 +129,7 @@ TexturePack({
     'tgtp_fuckass_decks', 
     'tgtp_fuckass_vouchers',
     'tgtp_fuckass_enhancements',
+    'tgtp_fuckass_seals',
 },
   loc_txt = { 
     name = 'Fuckass Pack',
