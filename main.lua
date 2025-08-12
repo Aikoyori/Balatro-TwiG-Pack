@@ -86,9 +86,18 @@ AltTexture({
         name = 'Spectrals'
     },
 })
+AltTexture({
+    key = 'fuckass_vouchers',
+    path = 'vouchers.png',
+    set = "Voucher",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Vouchers'
+    },
+})
 TexturePack({
   key = 'fuckass_pack', -- the key of the texture
-  textures = {'tgtp_fuckass_planets','tgtp_fuckass_tarots', 'tgtp_fuckass_spectrals', 'tgtp_fuckass_decks', 'tgtp_fuckass_jokers', },
+  textures = {'tgtp_fuckass_jokers', 'tgtp_fuckass_planets','tgtp_fuckass_tarots', 'tgtp_fuckass_spectrals', 'tgtp_fuckass_decks', 'tgtp_fuckass_vouchers'},
   loc_txt = { 
     name = 'Fuckass Pack',
     text = {'Texture made by {C:attention}TwiGinTec'}
