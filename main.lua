@@ -12,6 +12,29 @@ SMODS.Atlas{
     px = 71,
     py = 95
 }
+SMODS.Atlas{
+    key = "suit_icons",
+    path = "suit_icons.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 18,
+    py = 18
+}
+SMODS.Atlas{
+    key = "ui_1",
+    path = "ui_assets.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 18,
+    py = 18,
+    prefix_config = false
+}
+SMODS.Atlas{
+    key = "ui_2",
+    path = "ui_assets_opt2.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 18,
+    py = 18,
+    prefix_config = false
+}
 local st = {
     {"Hearts", "hearts"},
     {"Spades", "spades"},
@@ -34,7 +57,10 @@ for _,c in ipairs(st) do
                 },
                 atlas = "tgtp_deck",
                 pos_style = "deck",
-
+                suit_icon = {
+                    atlas = "tgtp_suit_icons",
+                    pos = 0
+                }
             }
         }
     }
@@ -119,6 +145,34 @@ AltTexture({
         name = 'Seals'
     },
 })
+AltTexture({
+    key = 'fuckass_blinds',
+    path = 'blinds.png',
+    set = "Blind",
+    frames = 21,
+    original_sheet = true,
+    loc_txt = {
+        name = 'Blinds'
+    },
+})
+AltTexture({
+    key = 'fuckass_booster',
+    path = 'boosters.png',
+    set = "Booster",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Booster Packs'
+    },
+})
+AltTexture({
+    key = 'fuckass_tag',
+    path = 'tags.png',
+    set = "Tag",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Tags'
+    },
+})
 TexturePack({
   key = 'fuckass_pack', -- the key of the texture
   textures = {
@@ -130,6 +184,9 @@ TexturePack({
     'tgtp_fuckass_vouchers',
     'tgtp_fuckass_enhancements',
     'tgtp_fuckass_seals',
+    'tgtp_fuckass_booster',
+    'tgtp_fuckass_tag',
+    'tgtp_fuckass_blinds',
 },
   loc_txt = { 
     name = 'Fuckass Pack',
