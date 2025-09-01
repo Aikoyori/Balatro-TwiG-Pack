@@ -35,6 +35,14 @@ SMODS.Atlas{
     py = 18,
     prefix_config = false
 }
+SMODS.Atlas{
+    key = "balatro",
+    path = "logo.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 333,
+    py = 216,
+    prefix_config = false
+}
 local st = {
     {"Hearts", "hearts"},
     {"Spades", "spades"},
@@ -173,6 +181,25 @@ AltTexture({
         name = 'Tags'
     },
 })
+AltTexture({
+    key = 'fuckass_stakes',
+    path = 'stakes.png',
+    set = "Stake",
+    original_sheet = true,
+    stickers = true,
+    loc_txt = {
+        name = 'Stakes'
+    },
+})
+AltTexture({
+    key = 'fuckass_stickers',
+    path = 'stakes_stickers.png',
+    set = "Sticker",
+    original_sheet = true,
+    loc_txt = {
+        name = 'Stickers'
+    },
+})
 TexturePack({
   key = 'fuckass_pack', -- the key of the texture
   textures = {
@@ -187,6 +214,8 @@ TexturePack({
     'tgtp_fuckass_booster',
     'tgtp_fuckass_tag',
     'tgtp_fuckass_blinds',
+    'tgtp_fuckass_stakes',
+    'tgtp_fuckass_stickers',
 },
   loc_txt = { 
     name = 'Fuckass Pack',
