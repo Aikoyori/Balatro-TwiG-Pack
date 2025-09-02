@@ -53,7 +53,7 @@ for _,c in ipairs(st) do
     SMODS.DeckSkin{
         key = c[1],
         suit = c[1],
-        loc_txt = "Fuckass Pack",
+        loc_txt = "twig Pack",
         palettes = {
             {
                 key = c[2],
@@ -75,13 +75,13 @@ for _,c in ipairs(st) do
 end
 
 SMODS.Atlas({
-    key = 'fuckass_decks',
+    key = 'twig_decks',
     path = 'backs.png',
     px = 71,
     py = 95,
 })
 AltTexture({
-    key = 'fuckass_decks',
+    key = 'twig_decks',
     path = 'backs.png',
     set = "Back",
     original_sheet = true,
@@ -91,7 +91,7 @@ AltTexture({
 })
 
 AltTexture({
-    key = 'fuckass_jokers',
+    key = 'twig_jokers',
     path = 'jokers.png',
     set = "Joker",
     original_sheet = true,
@@ -100,7 +100,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_tarots',
+    key = 'twig_tarots',
     path = 'consumables.png',
     set = "Tarot",
     original_sheet = true,
@@ -109,7 +109,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_planets',
+    key = 'twig_planets',
     path = 'consumables.png',
     set = "Planet",
     original_sheet = true,
@@ -118,7 +118,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_spectrals',
+    key = 'twig_spectrals',
     path = 'consumables.png',
     set = "Spectral",
     original_sheet = true,
@@ -127,7 +127,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_vouchers',
+    key = 'twig_vouchers',
     path = 'vouchers.png',
     set = "Voucher",
     original_sheet = true,
@@ -136,7 +136,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_enhancements',
+    key = 'twig_enhancements',
     path = 'backs.png',
     set = "Enhanced",
     original_sheet = true,
@@ -145,7 +145,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_seals',
+    key = 'twig_seals',
     path = 'backs.png',
     set = "Seal",
     original_sheet = true,
@@ -154,7 +154,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_blinds',
+    key = 'twig_blinds',
     path = 'blinds.png',
     set = "Blind",
     frames = 21,
@@ -164,7 +164,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_booster',
+    key = 'twig_booster',
     path = 'boosters.png',
     set = "Booster",
     original_sheet = true,
@@ -173,7 +173,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_tag',
+    key = 'twig_tag',
     path = 'tags.png',
     set = "Tag",
     original_sheet = true,
@@ -182,7 +182,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_stakes',
+    key = 'twig_stakes',
     path = 'stakes.png',
     set = "Stake",
     original_sheet = true,
@@ -192,7 +192,7 @@ AltTexture({
     },
 })
 AltTexture({
-    key = 'fuckass_stickers',
+    key = 'twig_stickers',
     path = 'stakes_stickers.png',
     set = "Sticker",
     original_sheet = true,
@@ -201,26 +201,26 @@ AltTexture({
     },
 })
 TexturePack({
-  key = 'fuckass_pack', -- the key of the texture
+  key = 'twig_pack', -- the key of the texture
   textures = {
-    'tgtp_fuckass_jokers', 
-    'tgtp_fuckass_planets',
-    'tgtp_fuckass_tarots', 
-    'tgtp_fuckass_spectrals', 
-    'tgtp_fuckass_decks', 
-    'tgtp_fuckass_vouchers',
-    'tgtp_fuckass_enhancements',
-    'tgtp_fuckass_seals',
-    'tgtp_fuckass_booster',
-    'tgtp_fuckass_tag',
-    'tgtp_fuckass_blinds',
-    'tgtp_fuckass_stakes',
-    'tgtp_fuckass_stickers',
+    'tgtp_twig_jokers', 
+    'tgtp_twig_planets',
+    'tgtp_twig_tarots', 
+    'tgtp_twig_spectrals', 
+    'tgtp_twig_decks', 
+    'tgtp_twig_vouchers',
+    'tgtp_twig_enhancements',
+    'tgtp_twig_seals',
+    'tgtp_twig_booster',
+    'tgtp_twig_tag',
+    'tgtp_twig_blinds',
+    'tgtp_twig_stakes',
+    'tgtp_twig_stickers',
 },
   loc_txt = { 
-    name = 'Fuckass Pack',
+    name = 'The TWiG Pack',
     text = {'Texture made by {C:attention}TwiGinTec'}
   }
 })
 
-G.P_CENTERS['c_base'].atlas = 'tgtp_fuckass_decks'
+G.P_CENTERS['c_base'].atlas = 'tgtp_twig_decks'
