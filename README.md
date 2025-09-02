@@ -1,6 +1,9 @@
 # Fuckass Pack
 This is the best pack of all time
 
+# How to install?
+Install [Steamodded](https://github.com/Steamodded/smods/), [Malverk](https://github.com/Eremel/Malverk/) and then install this
+
 # Credits
 [TwiGinTec](https://x.com/TecGin): All assets
 me for programming n everything
